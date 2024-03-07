@@ -4,6 +4,9 @@ import Image5 from '../Images/burger.jpg';
 import cardimage27 from "../Galleryimages/img25.jpg";
 import Image3 from '../Images/bbq.jpg';
 import Hero from '../Images/hero.png';
+import { Link } from "react-router-dom";
+import cardimage15 from "../Galleryimages/img12.jpeg";
+import cardimage17 from "../Galleryimages/img13.jpeg";
 class Home extends React.Component {
     render() {
         return (
@@ -18,7 +21,7 @@ class Home extends React.Component {
                     <h1 class="display-3 text-white animated slideInLeft">Enjoy Our<br />Delicious Food</h1>
                     <p class="text-white animated slideInLeft mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
 
-                    <a href="#" class="btn btn-primary text-center py-sm-3 px-sm-5 me-3 animated slideInLeft">Our Menu</a>
+                   <Link class="nav-link text-white" to="Menu"><a href="" class="btn btn-primary text-center py-sm-3 px-sm-5 me-3 animated slideInLeft">Our Menu</a></Link>
 
 
                   </div>
@@ -38,9 +41,30 @@ class Home extends React.Component {
               BBQ Mechanic has been serving delightful experiences through the art of cooking for four decades. A cozy,relaxing space combined with flavourful dishes makes it a first choices for every foodie in town. It provides a wide range of items to choose from and lets everyone indulge in an experiences of pleasing their taste buds.
                </p>
           
-          <br></br> <h1>About us</h1><br></br>
-          <h5 className="para">The BBQ MECHANIC has been at the center stage for all Fast Food lovers since 2024 successful and a vision to reach an easy Franchese ooportunity with low investment option for metro cities all over India.</h5>
-          <br></br>
+         <div class="container">
+            <h1>Our Menu card</h1>
+            <div class="row">
+              <div class="col-4">
+                <img src={cardimage15} height="400px"/>
+              </div>
+              <div class="col-4" id="para">
+              Grillin' and chillin' at the BBQ party!",<br></br>
+        "Sauce boss, ruling the grill with a smokin' attitude."<br></br>
+       "Having a grilliant time at the BBQ cookout!"<br></br>
+        "Feeling grill-iantly saucy today!"<br></br>
+        "Gettin' saucy with my barbecue crew!"<br></br>
+        "Bringing the heat and meat to the backyard BBQ fiesta!"<br></br>
+        In the world of BBQ, I'm the sauce-preneur!<br></br>
+              </div>
+              <div class="col-4">
+                <img src={cardimage17} height="400px"/>
+              </div>
+              
+
+            </div>
+
+          </div>
+
           </div>
 
           
