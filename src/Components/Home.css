@@ -37,3 +37,9 @@
     
 }
 
+@media only screen and (max-width: 992px) {
+    #imgbox {
+      height:510px;
+    }
+  }
+
