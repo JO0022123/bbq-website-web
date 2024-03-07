@@ -13,7 +13,7 @@ class Header extends React.Component {
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
-              <Link class="nav-link" to="Home">Home</Link>
+              <Link class="nav-link" to="/">Home</Link>
               <Link class="nav-link" to="Aboutus">Aboutus</Link>
               <Link class="nav-link" to="Franchese">Franchese</Link>
               <Link class="nav-link" to="Menu">Menu</Link>
