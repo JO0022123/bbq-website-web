@@ -12,7 +12,7 @@ class Home extends React.Component {
 
           <div className="container-fluid p-0" id="homebox">
             <div class="container-fluid py-0 bg-dark hero-header mb-5">
-              <div class="container py-5">
+              <div class="container pb-5">
                 <div class="row align-items-center g-5">
                   <div class="col-lg-6 text-center text-lg-start">
                     <h1 class="display-3 text-white animated slideInLeft">Enjoy Our<br />Delicious Food</h1>
