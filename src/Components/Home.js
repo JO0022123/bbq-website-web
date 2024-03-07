@@ -10,7 +10,7 @@ class Home extends React.Component {
           <>
          <div className="container-fluid p-0" id="homebox">
 
-          <div className="container-fluid p-0" id="hom">
+          <div className="container-fluid p-0" id="homebox">
             <div class="container-xxl py-1 bg-dark hero-header mb-5">
               <div class="container py-5">
                 <div class="row align-items-center g-5">
