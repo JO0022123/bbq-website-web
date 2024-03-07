@@ -45,7 +45,7 @@ class Home extends React.Component {
             <h1 class="mt-5 mb-5">Our Menu card</h1>
             <div class="row">
               <div class="col-4">
-                <img src={cardimage15} height="400px"/>
+                <img src={cardimage15} id="imgbox"height="400px"/>
               </div>
               <div class="col-4" id="para">
               Grillin' and chillin' at the BBQ party!",<br></br>
@@ -57,7 +57,7 @@ class Home extends React.Component {
         In the world of BBQ, I'm the sauce-preneur!<br></br>
               </div>
               <div class="col-4">
-                <img src={cardimage17} height="400px"/>
+                <img src={cardimage17} id="imgbox" height="400px"/>
               </div>
               
 
