@@ -45,7 +45,7 @@ class Gallery extends React.Component {
             <img src={cardimage4} alt="BBQ MECHANIC" />
             <img src={cardimage5} alt="BBQ MECHANIC"/>
             <img src={cardimage6} alt="BBQ MECHANIC"/>
-            <img src={cardimage7} alt="BBQ MECHANIC"/>
+            <img src={cardimage7}height="715px" alt="BBQ MECHANIC"/>
           </div>
 
           <div class="column">
@@ -55,7 +55,7 @@ class Gallery extends React.Component {
             <img src={cardimage8} alt="BBQ MECHANIC"/>
             <img src={cardimage29} height="235" alt="BBQ MECHANIC" />
             <img src={cardimage12} alt="BBQ MECHANIC"/>
-            <img src={cardimage11} alt="BBQ MECHANIC"/>
+            <img src={cardimage11} height="400px" alt="BBQ MECHANIC"/>
           </div>
 
           <div class="column">
@@ -66,7 +66,7 @@ class Gallery extends React.Component {
             <img src={cardimage18} alt="BBQ MECHANIC"/>
             <img src={cardimage19} alt="BBQ MECHANIC"/> 
             <img src={cardimage14} alt="BBQ MECHANIC"/>
-            <img src={cardimage26} height="485" alt="BBQ MECHANIC"/>
+            <img src={cardimage26} height="410px" alt="BBQ MECHANIC"/>
 
 
           </div>
@@ -79,13 +79,10 @@ class Gallery extends React.Component {
             <img src={cardimage27} alt="BBQ MECHANIC"/>
             <img src={cardimage21} alt="BBQ MECHANIC"/>
             <img src={cardimage13} alt="BBQ MECHANIC"/>
-            <img src={cardimage20} height="630" alt="BBQ MECHANIC"/>
+            <img src={cardimage20} height="550px" alt="BBQ MECHANIC"/>
           </div>
 
-          <div class="column">
-            <video src={video3} width="600" height="670" controls="controls" autoplay="true" />
-            <video src={video1} width="600" height="670" controls="controls" />
-          </div>
+         
         </div>
       </>
     )
