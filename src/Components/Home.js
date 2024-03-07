@@ -8,7 +8,7 @@ class Home extends React.Component {
     render() {
         return (
           <>
-         <div className="container-fluid p-0">
+         <div className="container-fluid p-0 m-0">
 
           <div className="container-fluid p-0" id="hom">
             <div class="container-xxl py-1 bg-dark hero-header mb-5">
