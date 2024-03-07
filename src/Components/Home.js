@@ -42,7 +42,7 @@ class Home extends React.Component {
                </p>
           
          <div class="container">
-            <h1>Our Menu card</h1>
+            <h1 class="mt-5 mb-5">Our Menu card</h1>
             <div class="row">
               <div class="col-4">
                 <img src={cardimage15} height="400px"/>
@@ -68,18 +68,48 @@ class Home extends React.Component {
           </div>
 
           
-          <h1>Our Special Menu</h1>
+          <h1 class="mt-5 mb-5">Our Special Menu</h1>
           <div className="container">
           <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner" id="caro">
               <div class="carousel-item active" data-bs-interval="100">
-                <img src={Image5} class="d-block w-100" alt="cardimage15" />
+                 <div class="row">
+                  <div class="col-4">
+                  <img src={Image5} class="d-block w-100" height="400px" alt="cardimage15" />
+                  </div>
+                  <div class="col-4">
+                  <img src={Image5} class="d-block w-100" height="400px" alt="cardimage15" />
+                  </div>
+                  <div class="col-4">
+                  <img src={Image5} class="d-block w-100"  height="400px" alt="cardimage15" />
+                  </div>
+                </div>
               </div>
               <div class="carousel-item" data-bs-interval="100">
-                <img src={cardimage27} class="d-block w-100" alt="cardimage27" />
+                <div class="row">
+                  <div class="col-4">
+                  <img src={cardimage27} class="d-block w-100" height="400px" alt="cardimage27" />
+                  </div>
+                  <div class="col-4">
+                  <img src={cardimage27} class="d-block w-100"  height="400px"alt="cardimage27" />
+                  </div>
+                  <div class="col-4">
+                  <img src={cardimage27} class="d-block w-100" height="400px" alt="cardimage27" />
+                  </div>
+                </div>
               </div>
               <div class="carousel-item">
-                <img src={Image3} class="d-block " alt="Image3" />
+              <div class="row">
+                  <div class="col-4">
+                  <img src={Image3} class="d-block w-100"  height="400px" alt="cardimage15" />
+                  </div>
+                  <div class="col-4">
+                  <img src={Image3} class="d-block w-100" height="400px" alt="cardimage15" />
+                  </div>
+                  <div class="col-4">
+                  <img src={Image3} class="d-block w-100" height="400px" alt="cardimage15" />
+                  </div>
+                </div>
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
