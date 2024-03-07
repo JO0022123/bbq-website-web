@@ -1,1 +1,37 @@
+.hero-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-header img {
+    animation: imgRotate 50s linear infinite;
+}
+
+@keyframes imgRotate { 
+    100% { 
+        transform: rotate(360deg); 
+    } 
+}
+
+.para{
+    
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.box{
+    float: start;
+    width:200px;
+}
+.box1{
+    float: end;
+    width:200px;
+}
+#caro{
+    height: 400px;
+    width: 100%;
+    
+    
+}
 
