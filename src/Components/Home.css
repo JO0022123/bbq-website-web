@@ -4,7 +4,9 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+#homebox{
+    margin:0px;
+}
 .hero-header img {
     animation: imgRotate 50s linear infinite;
 }
