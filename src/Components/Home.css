@@ -17,8 +17,8 @@
     } 
 }
 
-.para{
-    
+#para{
+     font-size: 25px;
     font-style: italic;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
