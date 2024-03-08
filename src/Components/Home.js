@@ -7,6 +7,7 @@ import Hero from '../Images/hero.png';
 import { Link } from "react-router-dom";
 import cardimage15 from "../Galleryimages/img12.jpeg";
 import cardimage17 from "../Galleryimages/img13.jpeg";
+import Footer from "./Footer";
 class Home extends React.Component {
     render() {
         return (
@@ -122,7 +123,7 @@ class Home extends React.Component {
           </div><br></br>
           </div>
         </div>
-
+              <Footer></Footer>
           </>
 );
 }
