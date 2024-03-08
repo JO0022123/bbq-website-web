@@ -37,19 +37,19 @@
     
 }
 
-@media only screen and (max-device-width: 600px) {
+@media only screen and (max-device-width: 900px) {
     #imgbox {
       height:400px;
     }
   }
 
-  @media only screen and (max-device-width: 600px) {
+  @media only screen and (max-device-width: 900px) {
     #para {
       font-size: 21px;
       height:400px;
     }
   }
- @media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 900px) {
     #imgcol{
       font-size: 17px;
       height:200px;
