@@ -1,5 +1,6 @@
 import React from "react";
 import "./Gallery.css";
+import Footer from "./Footer";
 import cardimage1 from "../Galleryimages/img.jpeg";
 import cardimage2 from "../Galleryimages/img0.jpeg";
 import cardimage3 from "../Galleryimages/img1.jpeg";
@@ -84,6 +85,7 @@ class Gallery extends React.Component {
 
          
         </div>
+      <Footer></Footer>
       </>
     )
   }
