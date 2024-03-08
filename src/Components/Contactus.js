@@ -2,6 +2,7 @@ import React from "react"
 import './Contact.css';
 import { Link } from "react-router-dom";
 import Img from '../Images/swiggy.png';
+import Footer from "./Footer";
 class Contactus extends React.Component {
     render() {
         return (
@@ -30,7 +31,7 @@ class Contactus extends React.Component {
 		
 	</div>
 	</section>
-
+          <Footer></Footer>
           </>
 );
     }
