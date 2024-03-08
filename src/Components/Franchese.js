@@ -1,5 +1,6 @@
 import React from "react"
 import './Franchese.css';
+import Footer from "./Footer";
 class Franchese extends React.Component {
     render() {
         return (
@@ -12,7 +13,7 @@ class Franchese extends React.Component {
 
 </div>
 </div>
-
+<Foooter></Footer>
           </>
 );
 }
