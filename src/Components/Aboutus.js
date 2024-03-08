@@ -1,5 +1,6 @@
 import React from "react";
 import myimage from "../Galleryimages/img3.jpeg";
+ 
 class Aboutus extends React.Component {
     render() {
         return (
