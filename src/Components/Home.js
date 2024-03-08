@@ -75,39 +75,39 @@ class Home extends React.Component {
               <div class="carousel-item active" data-bs-interval="100">
                  <div class="row">
                   <div class="col-4">
-                  <img src={Image5} class="d-block w-100" height="400px" alt="cardimage15" />
+                  <img src={Image5} class="d-block w-100" id="imgcol" height="400px" alt="cardimage15" />
                   </div>
                   <div class="col-4">
-                  <img src={Image5} class="d-block w-100" height="400px" alt="cardimage15" />
+                  <img src={Image5} class="d-block w-100"id="imgcol" height="400px" alt="cardimage15" />
                   </div>
                   <div class="col-4">
-                  <img src={Image5} class="d-block w-100"  height="400px" alt="cardimage15" />
+                  <img src={Image5} class="d-block w-100"id="imgcol"  height="400px" alt="cardimage15" />
                   </div>
                 </div>
               </div>
               <div class="carousel-item" data-bs-interval="100">
                 <div class="row">
                   <div class="col-4">
-                  <img src={cardimage27} class="d-block w-100" height="400px" alt="cardimage27" />
+                  <img src={cardimage27} class="d-block w-100"id="imgcol" height="400px" alt="cardimage27" />
                   </div>
                   <div class="col-4">
-                  <img src={cardimage27} class="d-block w-100"  height="400px"alt="cardimage27" />
+                  <img src={cardimage27} class="d-block w-100"id="imgcol"  height="400px"alt="cardimage27" />
                   </div>
                   <div class="col-4">
-                  <img src={cardimage27} class="d-block w-100" height="400px" alt="cardimage27" />
+                  <img src={cardimage27} class="d-block w-100"id="imgcol" height="400px" alt="cardimage27" />
                   </div>
                 </div>
               </div>
               <div class="carousel-item">
               <div class="row">
                   <div class="col-4">
-                  <img src={Image3} class="d-block w-100"  height="400px" alt="cardimage15" />
+                  <img src={Image3} class="d-block w-100"id="imgcol"  height="400px" alt="cardimage15" />
                   </div>
                   <div class="col-4">
-                  <img src={Image3} class="d-block w-100" height="400px" alt="cardimage15" />
+                  <img src={Image3} class="d-block w-100"id="imgcol" height="400px" alt="cardimage15" />
                   </div>
                   <div class="col-4">
-                  <img src={Image3} class="d-block w-100" height="400px" alt="cardimage15" />
+                  <img src={Image3} class="d-block w-100"id="imgcol" height="400px" alt="cardimage15" />
                   </div>
                 </div>
               </div>
