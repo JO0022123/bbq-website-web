@@ -13,7 +13,7 @@ class Franchese extends React.Component {
 
 </div>
 </div>
-<Foooter></Footer>
+<Footer></Footer>
           </>
 );
 }
