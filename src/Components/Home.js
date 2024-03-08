@@ -48,13 +48,12 @@ class Home extends React.Component {
                 <img src={cardimage15} id="imgbox"height="400px"/>
               </div>
               <div class="col-4" id="para">
-              Grillin' and chillin' at the BBQ party!",<br></br>
+              "Grillin' and chillin' at the BBQ party!",<br></br>
         "Sauce boss, ruling the grill with a smokin' attitude."<br></br>
-       "Having a grilliant time at the BBQ cookout!"<br></br>
-        "Feeling grill-iantly saucy today!"<br></br>
+       
         "Gettin' saucy with my barbecue crew!"<br></br>
-        "Bringing the heat and meat to the backyard BBQ fiesta!"<br></br>
-        In the world of BBQ, I'm the sauce-preneur!<br></br>
+        
+        "In the world of BBQ, I'm the sauce-preneur!"<br></br>
               </div>
               <div class="col-4">
                 <img src={cardimage17} id="imgbox" height="400px"/>
