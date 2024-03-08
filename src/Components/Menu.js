@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./Footer";
 import Image1 from '../Images/moji.jpg';
 import Image2 from '../Images/rice.jpg';
 import Image3 from '../Images/bbq.jpg';
@@ -125,6 +126,7 @@ class Menu extends React.Component {
   </div>
 </div>
 </div>
+      <Footer></Footer>
 </>
   
     );
